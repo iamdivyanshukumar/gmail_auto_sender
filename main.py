@@ -6,8 +6,8 @@ from email.mime.text import MIMEText
 from email.mime.application import MIMEApplication
 
 # Directly set the values for testing (you can also use os.environ if needed)
-os.environ["EMAIL_USER"] = "your.divyanshussa2@gmail.com"
-os.environ["EMAIL_PASS"] = "wpelxnaupguhlzwi"
+os.environ["EMAIL_USER"] = "your.your gmail.com"
+os.environ["EMAIL_PASS"] = "your_app_password"
 
 # Load email and password from environment variables
 YOUR_EMAIL = os.getenv("EMAIL_USER")
